@@ -132,7 +132,7 @@ export default {
                 font-weight: bold;
                 color: #000;
                 padding-bottom: 32px;
-                margin: 0px 0px 55px 340px;
+                margin: 0px 0px 55px 200px;
                 position: relative;
             }
 

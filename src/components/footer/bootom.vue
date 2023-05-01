@@ -12,7 +12,7 @@
                         <p>
                             ICP证：
                             <a class="remark" href="http://beian.miit.gov.cn">
-                                京ICP备19043461号-1
+                                鄂ICP备2023003600号-1
                             </a>
                         </p>
                     </div>
