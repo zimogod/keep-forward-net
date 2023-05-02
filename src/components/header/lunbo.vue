@@ -2,13 +2,12 @@
   <div class="lunbo">
     <el-row>
       <el-col :span="24" class="lunbo-col">
-        <div class="swiper grid-content bg-purple-dark">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="item in list" :key="item.id">
+        <div class="block">
+          <el-carousel trigger="click" height="574px">
+            <el-carousel-item v-for="item in list" :key="item.id">
               <img :src="item.path" width="100%" alt="" />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div><!--分页器。如果放置在swiper外面，需要自定义样式。-->
+            </el-carousel-item>
+          </el-carousel>
         </div>
       </el-col>
     </el-row>
@@ -25,52 +24,38 @@ export default {
       list: [
         {
           id: "1",
-          path: require('../../assets/banner2.png'),
+          path: require('../../assets/banner2.jpg'),
         },
         {
           id: "2",
-          path: require('../../assets/banner3.png'),
+          path: require('../../assets/banner3.jpg'),
         },
         {
           id: "3",
-          path: require('../../assets/banner1.png'),
+          path: require('../../assets/banner1.jpg'),
         },
       ],
     };
   },
 
   mounted() {
-    // eslint-disable-next-line no-unused-vars
-    var mySwiper = new Swiper(".swiper", {
-      autoplay: true, //可选选项，自动滑动
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        // type:'progressbar',
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-      },
-    });
+
   },
 
   methods: {},
 };
 </script>
 
-
-
-<style lang="less" scoped>
-.swiper {
-  --swiper-theme-color: #ff6600;
-  --swiper-pagination-color: #none;
-  /* 两种都可以 */
-
+<style>
+.el-carousel__indicators {
+  text-align: center !important;
 }
-
+</style>
+<style lang="less" scoped>
 .lunbo {
   width: 100%;
   height: 600px;
+  cursor: pointer;
 
   .el-row {
     width: 94%;
@@ -80,13 +65,6 @@ export default {
     .lunbo-col {
       width: 100%;
       overflow: hidden;
-
-      /deep/.swiper-pagination-bullet {
-        height: 20px;
-        width: 20px;
-        border: 2px solid #fff;
-        color: #fff;
-      }
     }
   }
 

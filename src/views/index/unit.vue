@@ -154,6 +154,9 @@ export default {
         }
 
         .con8list {
+            position: relative;
+            left: -6%;
+
             .clearfix::after {
                 content: '';
                 display: block;

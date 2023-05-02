@@ -3,10 +3,10 @@
         <el-row>
             <el-col :span="22" :offset="1">
                 <div class="grid-content bg-purple-dark">
-                    <ul>
-                        <li v-for="(item, index) in current" :key="index">
+                    <ul class="list-11">
+                        <li class="lis-1" v-for="(item, index) in current" :key="index">
                             <div class="inner">
-                                <img :src="item.path" alt="">
+                                <img class="chils" :src="item.path" alt="">
                             </div>
                             <p>{{ item.title }}</p>
                         </li>
@@ -66,17 +66,22 @@ export default {
 .con1 {
     margin-bottom: 80px;
 
-    ul {
+    .list-11 {
         display: flex;
         justify-content: space-around;
+        align-items: center;
 
-        li:hover {
+        .lis-1:hover {
             transform: translateY(-10px);
         }
 
-        li {
+        .lis-1 {
             transition: all .7s linear;
             cursor: pointer;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
 
             .inner {
                 margin-bottom: 25px;

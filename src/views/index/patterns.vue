@@ -42,7 +42,7 @@ export default {
             ],
             con3list: [
                 {
-                    content: '教学过程：激励教学，兴趣教学',
+                    content: '激励教学，兴趣教学',
                     contentp: ['注重实战能力', '学员潜力激发', '保障后续就业'],
                     path: require('../../assets/doubleleftarrow.png')
                 },
@@ -69,7 +69,7 @@ export default {
                 //     path: require('../../assets/jymsimg4.png')
                 // },
                 {
-                    content: '创新职业教育引领着',
+                    content: '创新职业教育引领者',
                     contentp: ['知进教育以“高品质就业”为使命',],
                     path: require('../../assets/doubleleftarrow.png')
                 },
