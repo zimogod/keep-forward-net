@@ -6,13 +6,13 @@
                     <div class="con7_tainer">
                         <div class="title">
                             <h2>
-                                学院动态
+                                知进动态
                             </h2>
                         </div>
                     </div>
                     <div class="con7con clearfix">
                         <div class="fadeInLeft">
-                            <div class="name">{{ con7.name }}</div>
+                            <!-- <div class="name">{{ con7.name }}</div> -->
                             <ul>
                                 <li v-for="item in con7.index">
                                     <a href="#">
@@ -26,7 +26,7 @@
                             </ul>
                         </div>
                         <div class="fadeInRight">
-                            <div class="name">{{ con8.name }}</div>
+                            <!-- <div class="name">{{ con8.name }}</div> -->
                             <ul>
                                 <li v-for="item in con8.index">
                                     <a href="#">

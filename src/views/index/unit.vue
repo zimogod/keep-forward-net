@@ -12,7 +12,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="javascript:;" class="djzx">点击咨询</a>
+            <a href="javascript:;" class="djzx" @click="open">点击咨询</a>
         </div>
     </div>
 </template>
@@ -105,7 +105,11 @@ export default {
     },
 
     methods: {
-
+        open() {
+            this.$alert('13133269388', '李彩仙老师', {
+                confirmButtonText: '确定',
+            });
+        }
     },
 };
 </script>

@@ -29,7 +29,7 @@ export default {
                 {
                     path: require('../../assets/siximg2.png'),
                     title: '高效学习',
-                    content: '激励教学，兴趣教学，独特的教学大纲使学员学习更容易，在学习过程中建立自驱力，实现自我成就，高效学习。'
+                    content: '激励教学，成就驱动，独特的教学大纲使学员学习更容易，在学习过程中建立自驱力，实现自我成就，高效学习。'
                 },
                 {
                     path: require('../../assets/siximg3.png'),

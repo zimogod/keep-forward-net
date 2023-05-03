@@ -10,14 +10,14 @@
                         <li>
                             <a href="#">
                                 <span>
-                                    紧跟时代<br>发展趋势
+                                    紧跟社会<br>发展趋势
                                 </span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <span class="current">
-                                    回归教育<br>行业规律
+                                    遵循教育<br>行业规律
                                 </span>
                             </a>
                         </li>
@@ -31,7 +31,7 @@
                         <li>
                             <a href="#">
                                 <span class="current">
-                                    培养高级应用<br>型专业技术人才
+                                    培养高级<br>应用人才
                                 </span>
                             </a>
                         </li>

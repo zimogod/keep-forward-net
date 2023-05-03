@@ -45,14 +45,14 @@ export default {
                 },
                 {
                     id: '2',
-                    title: '物联网学院 - 物联网全栈专业',
+                    title: '物联网学院 - 全栈专业',
                     peson: '招生计划：400人',
                     target: '目标定位：物联网全栈工程师、高级架构师',
                     path: require('@/assets/zsjhimg2.png')
                 },
                 {
                     id: '3',
-                    title: '人工智能学院 - 开发测试专业',
+                    title: '智能学院 - 全链路专业',
                     peson: '招生计划：268人',
                     target: '目标定位：全链路工程师，应用型工程师',
                     path: require('@/assets/zsjhimg3.png')

@@ -85,6 +85,12 @@ const routes = [
     uname: "招生计划",
     component: () => import("../views/plan/plan.vue"),
   },
+  {
+    path: "*",
+    name: "notFond",
+    uname: "404页面",
+    component: () => import("../views/notFond.vue"),
+  },
 ];
 
 const router = new VueRouter({

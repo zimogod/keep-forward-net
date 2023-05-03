@@ -35,14 +35,14 @@ export default {
             title: [
                 {
                     id: '1',
-                    titleh2: '教育模式',
+                    titleh2: '教育特色',
                     titleh3: '培养具有1~2年工作经验的高级应用型专业技术人才',
                     titlep: ['教学管理体系、教育管理体系、就业服务体系保障人人皆可成才']
                 }
             ],
             con3list: [
                 {
-                    content: '激励教学，兴趣教学',
+                    content: '激励教学，成就驱动',
                     contentp: ['注重实战能力', '学员潜力激发', '保障后续就业'],
                     path: require('../../assets/doubleleftarrow.png')
                 },
