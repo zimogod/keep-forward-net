@@ -47,7 +47,7 @@ export default {
         text-align: center;
         margin: 0 auto;
         width: 80%;
-        height: 90%;
+        height: 100%;
         background-color: #fff;
         box-shadow: 10px 10px 10px #ccc;
 
