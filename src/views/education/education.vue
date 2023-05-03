@@ -111,7 +111,7 @@ export default {
 
     .means {
         height: 650px;
-        width: 100%;
+        width: 90%;
         background: url(@/assets/jyjxbgcom.png) 0 center no-repeat;
         margin-top: 100px;
         background-size: 114% 284px;
