@@ -1,7 +1,7 @@
 <template>
     <div class="notFond">
         <div class="block">
-            <h1 class="demonstration">页面跑丢了，请点击下方&nbsp;<span>按钮</span>&nbsp;回到网站首页</h1>
+            <h1 class="demonstration">页面跑丢了，请点击下方&nbsp;<span>蓝色按钮</span>&nbsp;回到网站首页</h1>
             <el-skeleton style="width: 100%;">
                 <template slot="template">
                     <el-empty :image-size="340" description="页面跑丢了..."></el-empty>
@@ -18,7 +18,6 @@ export default {
 
     data() {
         return {
-            src: 'https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg'
         };
     },
 
@@ -40,16 +39,19 @@ export default {
     background-color: rgb(236, 235, 235);
 
     .block {
+        border-radius: 5px;
         text-align: center;
         margin: 0 auto;
         width: 80%;
         height: 90%;
         background-color: #fff;
+        box-shadow: 10px 10px 10px #ccc;
 
         h1 {
             width: 100%;
             height: 100px;
-            font: 26px/100px "微软雅黑";
+            font: 20px/100px "微软雅黑";
+            color: rgb(135, 134, 134);
 
             span {
                 color: #1a6cd1;
