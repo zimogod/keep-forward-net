@@ -102,6 +102,11 @@ export default {
                 position: relative;
                 width: 42%;
                 height: 81%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
 
             .info {

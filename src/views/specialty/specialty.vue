@@ -70,7 +70,7 @@ export default {
             ],
             list: [
                 {
-                    path: require('../../assets/zyjsimg1.png'),
+                    path: require('../../assets/jsj.png'),
                     coollege: '计算机学院',
                     intro: [
                         {
@@ -88,7 +88,7 @@ export default {
                     ]
                 },
                 {
-                    path: require('../../assets/zyjsimg1.png'),
+                    path: require('../../assets/300.jpg'),
                     coollege: '物联网学院 — 全栈专业',
                     intro: [
                         {
@@ -106,7 +106,7 @@ export default {
                     ]
                 },
                 {
-                    path: require('../../assets/zyjsimg1.png'),
+                    path: require('../../assets/art.jpg'),
                     coollege: '智能学院 一 全链路专业',
                     intro: [
                         {
@@ -124,12 +124,12 @@ export default {
                     ]
                 },
                 {
-                    path: require('../../assets/zyjsimg1.png'),
+                    path: require('../../assets/xmt.png'),
                     coollege: '新媒体学院 — 新媒体专业',
                     intro: [
                         {
                             title: '学院定位：',
-                            content: '训练思维、培养素质、教授计算机应用知识，为学生进入专业学院，打好基础'
+                            content: '紧盯新媒体市场，全力打造高级新媒体人才，为各大新媒体企业输送新媒体人才'
                         },
                         {
                             title: '学院简介：',
