@@ -121,7 +121,7 @@ export default {
             text-align: center;
 
             img {
-                width: 290px;
+                width: 380px;
                 height: 220px;
             }
 
