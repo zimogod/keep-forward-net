@@ -5,7 +5,7 @@
         <!-- 头部导航 -->
         <navs></navs>
         <div class="img">
-            <img src="@/assets/210315074902869.png" alt="">
+            <img src="@/assets/iotpic.jpg" alt="">
         </div>
         <!-- 学校概况,行业前景 -->
         <survey></survey>

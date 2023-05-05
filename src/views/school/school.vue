@@ -133,35 +133,51 @@ export default {
             imgmessage: [
                 {
                     id: 1,
-                    path: require('@/assets/xxjjimg1.png')
+                    path: require('@/assets/xiao/ban1.jpg')
                 },
                 {
                     id: 2,
-                    path: require('@/assets/xxjjimg2.png')
+                    path: require('@/assets/xiao/ban2.jpg')
                 },
                 {
                     id: 3,
-                    path: require('@/assets/xxjjimg3.png')
+                    path: require('@/assets/xiao/ban3.jpg')
                 },
                 {
                     id: 4,
-                    path: require('@/assets/xxjjimg4.png')
+                    path: require('@/assets/xiao/ban4.jpg')
                 },
                 {
                     id: 5,
-                    path: require('@/assets/xxjjimg5.png')
+                    path: require('@/assets/xiao/ban5.jpg')
                 },
                 {
                     id: 6,
-                    path: require('@/assets/xxjjimg6.png')
+                    path: require('@/assets/xiao/ban6.jpg')
                 },
                 {
                     id: 7,
-                    path: require('@/assets/xxjjimg7.png')
+                    path: require('@/assets/xiao/ban7.jpg')
                 },
                 {
                     id: 8,
-                    path: require('@/assets/xxjjimg8.png')
+                    path: require('@/assets/xiao/ban8.jpg')
+                },
+                {
+                    id: 9,
+                    path: require('@/assets/xiao/ban9.jpg')
+                },
+                {
+                    id: 10,
+                    path: require('@/assets/xiao/ban10.jpg')
+                },
+                {
+                    id: 11,
+                    path: require('@/assets/xiao/ban11.jpg')
+                },
+                {
+                    id: 12,
+                    path: require('@/assets/xiao/ban12.jpg')
                 }
             ]
         };

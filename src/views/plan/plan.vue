@@ -62,7 +62,7 @@ export default {
                     title: '新媒体学院 - 新媒体专业',
                     peson: '招生计划：308人',
                     target: '目标定位：新媒体工程师，全安运营工程师',
-                    path: require('@/assets/zsjhimg3.png')
+                    path: require('@/assets/xmt.png')
                 }
             ]
         };

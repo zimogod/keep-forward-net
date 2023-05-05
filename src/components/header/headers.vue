@@ -21,7 +21,9 @@
                             </div>
                             <div class="right_2">
                                 <h1>咨询热线:</h1>
-                                <span>13133269388</span>
+                                <div>李老师：13133269388</div>
+                                <div>张校：18610272976</div>
+                                <div>李校：13124408688</div>
                             </div>
                         </div>
                     </div>
@@ -134,7 +136,7 @@ export default {
             }
 
             .right_2 {
-                margin-top: 30px;
+                margin-top: 10px;
 
 
                 h1 {
@@ -144,10 +146,10 @@ export default {
                     color: #000;
                 }
 
-                span {
+                div {
                     color: #047df6;
                     display: block;
-                    font-size: 26px;
+                    font-size: 18px;
                     font-weight: bold;
                 }
             }

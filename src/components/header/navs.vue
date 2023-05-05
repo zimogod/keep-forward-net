@@ -44,7 +44,7 @@ export default {
           name: "学院介绍", url: "/specialty", children: [
             { name: "计算机学院", url: "/basics" },
             { name: "物联网学院", url: "/web" },
-            { name: "人工智能学院", url: "/bigdata" },
+            { name: "智能学院", url: "/bigdata" },
             // { name: "网络运营学院", url: "/operation" },
           ]
         },

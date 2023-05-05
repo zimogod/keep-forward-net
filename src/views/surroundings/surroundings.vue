@@ -57,32 +57,32 @@ export default {
             ],
             current: [
                 {
-                    path: require('@/assets/xyhjimg1.png'),
+                    path: require('@/assets/xiao/nice1.jpg'),
                     name: '校园美景',
                     children: [
                         {
-                            path: require('@/assets/xyhjimg2.png'),
+                            path: require('@/assets/xiao/nice2.jpg'),
                         },
                         {
-                            path: require('@/assets/xyhjimg3.png'),
+                            path: require('@/assets/xiao/nice3.jpg'),
                         },
                         {
-                            path: require('@/assets/xyhjimg4.png'),
+                            path: require('@/assets/xiao/nice4.jpg'),
                         }
                     ]
                 },
                 {
-                    path: require('@/assets/xyhjimg1.png'),
+                    path: require('@/assets/xiao/nice5.jpg'),
                     name: '校园美景',
                     children: [
                         {
-                            path: require('@/assets/xyhjimg2.png'),
+                            path: require('@/assets/xiao/nice6.jpg'),
                         },
                         {
-                            path: require('@/assets/xyhjimg3.png'),
+                            path: require('@/assets/xiao/nice8.jpg'),
                         },
                         {
-                            path: require('@/assets/xyhjimg4.png'),
+                            path: require('@/assets/xiao/nice9.jpg'),
                         }
                     ]
                 },
@@ -109,7 +109,7 @@ export default {
     }
 
     a:hover {
-        box-shadow: 0 0 10px #333;
+        box-shadow: 10px 10px 15px #ccc;
     }
 
     a {
@@ -119,6 +119,11 @@ export default {
 
         .img {
             text-align: center;
+
+            img {
+                width: 290px;
+                height: 220px;
+            }
 
             p {
                 width: 100%;

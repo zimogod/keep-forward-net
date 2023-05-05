@@ -1,13 +1,13 @@
 <template>
     <div class="advantage">
         <div class="name">特色优势</div>
+        <h6 class="jiewei">计算机学院，采用独创模块化教学。实体项目轮岗制，能力更完善</h6>
         <ul class="tsyslist">
-            <li v-for="(item, index) in list" :key="index">
-                <div class="yuan">{{ item.num }}</div>
-                <div class="info">
-                    <h2>{{ item.title }}</h2>
-                    <p v-for="(items, index) in item.content" :key="index">{{ items }}</p>
-                </div>
+            <li>
+                <img src="../../../assets/model2.jpg" alt="">
+            </li>
+            <li>
+                <img src="../../../assets/model3.jpg" alt="">
             </li>
         </ul>
     </div>
@@ -77,6 +77,12 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
 
+    .jiewei {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
     .name {
         width: 404px;
         margin-bottom: 150px;
@@ -95,36 +101,11 @@ export default {
         width: 100%;
         margin-bottom: 85px;
         display: flex;
+        flex-flow: column nowrap;
         justify-content: space-between;
 
-        li:nth-of-type(2) {
-            .yuan {
-                background: url(../../../assets/tsysyuan2.png) 0 0 no-repeat;
-            }
-
-            .info {
-                background: url(../../../assets/tsyskuang2.png) 0 0 no-repeat;
-            }
-        }
-
-        li:nth-of-type(3) {
-            .yuan {
-                background: url(../../../assets/tsysyuan3.png) 0 0 no-repeat;
-            }
-
-            .info {
-                background: url(../../../assets/tsyskuang3.png) 0 0 no-repeat;
-            }
-        }
-
-        li:nth-of-type(4) {
-            .yuan {
-                background: url(../../../assets/tsysyuan4.png) 0 0 no-repeat;
-            }
-
-            .info {
-                background: url(../../../assets/tsyskuang4.png) 0 0 no-repeat;
-            }
+        li {
+            margin-bottom: 50px;
         }
 
         li {

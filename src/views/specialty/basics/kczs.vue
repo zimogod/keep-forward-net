@@ -1,6 +1,6 @@
 <template>
     <div class="kczs">
-        <div class="name">基础学院素质课程展示</div>
+        <div class="name">感悟式素质教育</div>
         <div class="arc">
             <div v-for="(item, index) in title" :key="index">
                 <strong>{{ item.title }}</strong>

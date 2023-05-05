@@ -90,6 +90,7 @@ export default {
                 width: 100%;
 
                 img {
+                    height: 400px;
                     width: 100%;
                 }
 

@@ -6,7 +6,7 @@
                 <div class="line"></div>
             </div>
             <div class="img">
-                <img src="@/assets/wlwzyjsname.png" alt="">
+                <img src="@/assets/zy11.png" alt="">
             </div>
             <p class="content">物联网全栈开发者是具有互联网交互设计能力，熟悉后端服务器运行环境和数据通信协议，掌握
                 React、Vite、VueJS、NodeJS等多门技术的人才。作为互联网“新贵”，可以在多个工作岗位上任职。</p>

@@ -81,16 +81,17 @@ export default {
     data() {
         return {
             list: [
-                require('../../assets/whimg1.png'),
-                require('../../assets/whimg4.png'),
-                require('../../assets/whimg2.png'),
-                require('../../assets/whimg5.png'),
-                require('../../assets/whimg6.png'),
-                require('../../assets/whimg3.png'),
-                require('../../assets/whimg7.png'),
-                require('../../assets/whimg8.png'),
-                require('../../assets/whimg9.png'),
-                require('../../assets/more.png'),
+                require('../../assets/xiao/ban1.jpg'),
+                require('../../assets/xiao/ban2.jpg'),
+                require('../../assets/xiao/ban3.jpg'),
+                // require('../../assets/xiao/ban4.jpg'),
+                // require('../../assets/xiao/ban5.jpg'),
+                require('../../assets/xiao/ban6.jpg'),
+                require('../../assets/xiao/ban7.jpg'),
+                require('../../assets/xiao/ban8.jpg'),
+                require('../../assets/xiao/ban9.jpg'),
+                require('../../assets/xiao/ban10.jpg'),
+                require('../../assets/xiao/ban11.jpg'),
             ]
         };
     },

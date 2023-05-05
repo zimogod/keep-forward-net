@@ -7,14 +7,14 @@
                     <el-carousel-item v-for="item in imgs" :key="item">
                         <h3 class="small">
                             <img :src="item" alt="">
-                            <span>名企双选会</span>
+                            <span>名企招聘会</span>
                         </h3>
                     </el-carousel-item>
                 </el-carousel>
             </div>
             <div class="right">
-                <ul>
-                    <li v-for="(item, index) in imgs2" :key="index">
+                <ul class="list">
+                    <li class="lis" v-for="(item, index) in imgs2" :key="index">
                         <a href="javascript:;">
                             <img :src="item.path" alt="">
                             <p>{{ item.title }}</p>
@@ -39,36 +39,36 @@ export default {
             ],
             imgs2: [
                 {
-                    path: require('../../assets/ctrigimg1.png'),
-                    title: '高*豪 易*软件 月薪20K',
+                    path: require('../../assets/xiao/jy1.png'),
+                    title: '杨*领 中电金信 月薪11K',
                 },
                 {
-                    path: require('../../assets/ctrigimg2.png'),
-                    title: '崔*晨 北**咖 月薪15k',
+                    path: require('../../assets/xiao/jy2.png'),
+                    title: '李*彩 爱盈利 月薪13k',
                 },
                 {
-                    path: require('../../assets/ctrigimg3.png'),
-                    title: '李*海 北**数 月薪15k',
+                    path: require('../../assets/xiao/jy3.png'),
+                    title: '王*毅 北京** 月薪15k',
                 },
                 {
-                    path: require('../../assets/ctrigimg4.png'),
-                    title: '祖*泽 网**思 月薪12k',
+                    path: require('../../assets/xiao/jy4.png'),
+                    title: '李*鑫 花**技 月薪11k',
                 },
                 {
-                    path: require('../../assets/ctrigimg5.png'),
-                    title: '崔*荣 中**软 月薪12k',
+                    path: require('../../assets/xiao/jy5.png'),
+                    title: '李*超 中信网科 月薪13k',
                 },
                 {
-                    path: require('../../assets/ctrigimg6.png'),
-                    title: '牛*扬 北**寸 月薪12k',
+                    path: require('../../assets/xiao/jy6.jpg'),
+                    title: '黑*晨 华为科技 月薪18k',
                 },
                 {
-                    path: require('../../assets/ctrigimg7.png'),
-                    title: '马* 中**达 月薪11.5k',
+                    path: require('../../assets/xiao/jy7.jpg'),
+                    title: '刑* 中软国际 月薪22k',
                 },
                 {
-                    path: require('../../assets/ctrigimg8.png'),
-                    title: '柴*生 北**天 月薪10k',
+                    path: require('../../assets/xiao/jy8.jpg'),
+                    title: '朱*亮 北*科技 月薪14k',
                 },
             ]
         };
@@ -136,11 +136,15 @@ export default {
         }
 
         .right {
-            width: 672px;
+            width: 700px;
             float: right;
 
-            ul {
+            .list {
+                width: 100%;
+                height: 500px;
+
                 li:hover {
+
                     transform: scale(1.1);
                     z-index: 999;
                     position: relative;
@@ -149,6 +153,8 @@ export default {
 
                 li {
                     width: 168px;
+                    height: 225px;
+                    margin: 0px 0px 10px 7px;
                     float: left;
                     transition: all 0.3s ease-in-out;
 
@@ -157,6 +163,11 @@ export default {
                         width: 100%;
                         height: 100%;
                         position: relative;
+
+                        img {
+                            width: 168px;
+                            height: 100%;
+                        }
 
                         p {
                             width: 100%;
